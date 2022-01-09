@@ -38,12 +38,13 @@
           trang.src=openMouthImg
           this.counter++
           this.op++
-          trang.src
+          openMouthSound.play();
       },
     closeMouthImg: function(){
         trang.src=closeMouthImg
         this.counter++
         this.op=0
+        closeMouthSound.play();
 
     },
     /*counters:function(){
